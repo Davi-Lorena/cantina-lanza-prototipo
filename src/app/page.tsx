@@ -154,16 +154,16 @@ export default function CantinaLanzaPage() {
             Autêntica culinária italiana com pizzas artesanais, massas frescas e vinhos especiais. Uma experiência
             gastronômica única que transporta você diretamente para a Itália.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col items-center justify-center sm:flex-row gap-4 m-auto">
             <Button
               onClick={() => scrollToSection("menu")}
-              className="bg-[#ce2b37] hover:bg-red-700 text-white px-8 py-3 text-lg font-medium shadow-lg hover:shadow-xl transition-all"
+              className="bg-[#ce2b37] hover:bg-red-700 text-white w-48 px-8 py-3 text-lg font-medium shadow-lg hover:shadow-xl transition-all"
             >
               Ver Cardápio
             </Button>
             <Button
               onClick={() => scrollToSection("contact")}
-              className="bg-[#009246] hover:bg-green-700 text-white px-8 py-3 text-lg font-medium shadow-lg hover:shadow-xl transition-all"
+              className="bg-[#009246] hover:bg-green-700 text-white w-48 px-8 py-3 text-lg font-medium shadow-lg hover:shadow-xl transition-all"
             >
               Fazer Pedido
             </Button>
